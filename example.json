@@ -1,0 +1,18 @@
+{
+    "pencils": [
+        {
+            "color": "blue",
+            "price": "1"
+        },
+        {
+            "color": "green",
+            "price": "3"
+        }
+    ],
+    "pens": [
+        {
+            "color": "black",
+            "price": "4"
+        }
+    ]
+}
