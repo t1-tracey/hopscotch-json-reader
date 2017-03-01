@@ -18,8 +18,6 @@ def read_url(url_string):
             print('Project JSON was found.')
 
             project_data = div_data
-
-
             write_json_file(project_data)
 
 def write_json_file(data):
@@ -28,9 +26,10 @@ def write_json_file(data):
     file_path_project_data = os.path.join('project_data', str(project_id) + '.json')
 
     with open(file_path_project_data, 'w') as project_data_file:
-        json.dump(data, project_data_file, ensure_ascii=False, indent=4, sort_keys=True)
+        json.dump(json.loads(data), project_data_file, ensure_ascii=False, indent=4, sort_keys=True)
         print('Attempting to write the JSON to a file')
 
+    '''
     # Clear encapsulating ""
     with open(file_path_project_data) as project:
 
@@ -40,5 +39,6 @@ def write_json_file(data):
             line = line.replace('\\', '')
 
         project = project[1:-1]
+    '''
 
 read_url('https://c.gethopscotch.com/p/ykcmajup8.html')
