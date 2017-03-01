@@ -1,0 +1,70 @@
+
+
+{"stageSize":{"width":1024,"height":768},
+"scenes":[{"name":"Scene 1","objects":["5C09193D-A953-45D0-9052-99A6547049F1-23846-000027B6691B077A"]}],"version":26,
+"traits":[{"description":"Last Touch X","HSTraitIDKey":"E4BDC1DD-15C3-4F2C-BD2C-8469397074BD-23846-000027B661E0D3F8","HSTraitTypeKey":3006},
+{"description":"Last Touch Y","HSTraitIDKey":"7C5D78F1-1ABD-4D26-96DD-B22E28A24E03-23846-000027B661E9506A","HSTraitTypeKey":3007}],
+
+"rules":[{
+  "ruleBlockType":6000,"abilityID":"B7F09993-0125-4C2C-A9C2-187D91248F8B-23846-000027B66D5A2139","objectID":"5C09193D-A953-45D0-9052-99A6547049F1-23846-000027B6691B077A",
+  "parameters":[{"defaultValue":"","value":"","key":"","datum":{"type":7000,"block_class":"operator","description":"Game Starts"}, "type":52}]
+}],
+
+"eventParameters":null,"objects":[{"yPosition":"399","xPosition":"482","text":"","filename":"bird.png","type":32,"name":"Bird","objectID":"5C09193D-A953-45D0-9052-99A6547049F1-23846-000027B6691B077A"}],
+
+"baseObjectScale":1,"fontSize":80,"variables":null,"customObjects":null,
+"abilities":[
+
+  {"createdAt":509615752.835063,
+  "blocks":[
+    {"block_class":"method","type":41,"description":"Set Position",
+    "parameters":[{
+      "defaultValue":"200","value":"300","key":"to x","datum":{"description":"Last Touch X", "HSTraitIDKey":"E4BDC1DD-15C3-4F2C-BD2C-8469397074BD-23846-000027B661E0D3F8", "HSTraitTypeKey":3006},
+      "type":42},
+      {"defaultValue":"200","value":"300","key":"y","datum":{"description":"Last Touch Y", "HSTraitIDKey":"7C5D78F1-1ABD-4D26-96DD-B22E28A24E03-23846-000027B661E9506A", "HSTraitTypeKey":3007},
+      "type":42}
+    ]}
+  ],
+  "abilityID":"F5695616-6154-48DB-9E32-5394E99718A3-23846-000027B661E97BC4"},
+
+  {"createdAt":509615752.859481,
+  "blocks":[
+    {"block_class":"method","type":54,"description":"Set Color",
+      "parameters":[{
+        "defaultValue":"HSB(289,56,44)","value":"HSB(289,27,89)","key":"","datum":{"type":5000,"block_class":"operator","description":"Random"},
+        "type":44}]
+    },
+    {"block_class":"method","type":35,"description":"Wait",
+      "parameters":[{
+        "defaultValue":"500","value":"100","key":"milliseconds","type":42}]
+    }
+  ],
+  "abilityID":"5B08F3E7-6FDE-418A-8E2E-F835E7E599A3-23846-000027B662C8E1F3"},
+
+  {"createdAt":509615752.860525,
+  "blocks":[
+    {"block_class":"method","type":48,"description":"Grow by",
+    "parameters":[{
+      "defaultValue":"50","value":"10","key":"percent","type":42}]}
+  ],
+  "abilityID":"69AFCBFD-AFE1-4E6E-BD57-B22B8CA8C73B-23846-000027B662C92A45"},
+
+  {"createdAt":509615760.811125,
+  "abilityID":"DF7FECD8-7F15-4ACB-AE17-9D9B555B473D-23846-000027B66D59E4E0"},
+
+  {"createdAt":509615760.839364,
+  "blocks":[
+    {"block_class":"method","type":23,"description":"Move Forward",
+    "parameters":[{
+      "defaultValue":"100","value":"300","key":"","type":42}]
+    }
+  ],
+  "abilityID":"B7F09993-0125-4C2C-A9C2-187D91248F8B-23846-000027B66D5A2139"}
+
+  ],
+
+"uuid":"ykcmt8byi","author":"me","deleted_at":null,"edited_at":"2017-02-24T07:56:26Z","filename":"D8077AC7-C8E4-4128-A8F2-1A96E196E75E-23846-000027B661D2900D.hopscotch","number_of_stars":0,"play_count":1,"project_remixes_count":0,"published_remixes_count":0,"text_object_label":null,"title":"Bird - move forward 300 - no abilities", "screenshot_url":"https://s3.amazonaws.com/hopscotch-cover-images/production/ykcmt8byi.png","channel_label":"trending","has_been_removed":false, "in_moderation":false, "published_at":"2017-02-24T00:00:00Z", "correct_published_at":"2017-02-24T07:56:27Z","user":{"id":621,"avatar_type":14,"created_at":"July 2014","iphone_user":false,"nickname":"t1"},
+"user_id":621,"original_user":{"id":"621","avatar_type":14,"created_at":"July 2014","iphone_user":false,"nickname":"t1"},
+"remote_asset_urls":[]}
+
+ id="project_data"></div>
