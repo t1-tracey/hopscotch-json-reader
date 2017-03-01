@@ -29,16 +29,4 @@ def write_json_file(data):
         json.dump(json.loads(data), project_data_file, ensure_ascii=False, indent=4, sort_keys=True)
         print('Attempting to write the JSON to a file')
 
-    '''
-    # Clear encapsulating ""
-    with open(file_path_project_data) as project:
-
-        for line in project:
-
-            # Clear backslashes
-            line = line.replace('\\', '')
-
-        project = project[1:-1]
-    '''
-
 read_url('https://c.gethopscotch.com/p/ykcmajup8.html')
