@@ -22,7 +22,7 @@ def read_url(url_string):
 
 def write_json_file(data):
 
-    project_id = 621 #div_data['user_id']
+    project_id = json.loads(data)['uuid']
     file_path_project_data = os.path.join('project_data', str(project_id) + '.json')
 
     with open(file_path_project_data, 'w') as project_data_file:
