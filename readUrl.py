@@ -36,7 +36,7 @@ def write_json_file(data):
     file_path_data = os.path.join('project_data', str(project_id) + '.json')
 
     with open(file_path_data, 'w') as project_file:
-        json.dump(data, project_file, ensure_ascii=False, indent=4)
+        json.dump(data, project_file, ensure_ascii=False, indent=4, sort_keys=True)
         print('Writing the JSON to a file.')
 
 read_url('https://c.gethopscotch.com/p/ykcmajup8.html')
